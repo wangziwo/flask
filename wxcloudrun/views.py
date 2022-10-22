@@ -13,12 +13,12 @@ def index():
     """
     return render_template('index.html')
 
-@app.route('/four')
+@app.route('/four', methods=['POST',"GET"])
 def index():
     """
     :return: 返回index页面
     """
-    return make_succ_response("echo")
+    return "echo"
 
 @app.route('/api/count', methods=['POST'])
 def count():
