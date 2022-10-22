@@ -18,7 +18,7 @@ def four():
     """
     :return: 返回index页面
     """
-    return "echo"
+    return "echo1"
 
 @app.route('/api/count', methods=['POST'])
 def count():
