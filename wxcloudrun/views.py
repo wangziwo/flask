@@ -14,7 +14,7 @@ def index():
     return render_template('index.html')
 
 @app.route('/four', methods=['POST',"GET"])
-def index():
+def four():
     """
     :return: 返回index页面
     """
